@@ -99,8 +99,9 @@ class BooleanReader {
 			
 		} finally {
 			if (in != null)
-				//TODO Catch exception
-				in.close();
+				try {
+          in.close();
+				} catch (IOException e) {}
 		}
 	}
 	
