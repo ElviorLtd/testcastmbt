@@ -99,6 +99,7 @@ class BooleanReader {
 			
 		} finally {
 			if (in != null)
+				//TODO Catch exception
 				in.close();
 		}
 	}
