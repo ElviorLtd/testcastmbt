@@ -27,6 +27,7 @@ public class Main {
 		m.start(args);	
 	}
 	
+	//Getting emails?
 	private void start(String[] args) {
 		if (args.length < 1)
 			log("Provide an input file name as the first parameter.", true);
